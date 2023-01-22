@@ -3,7 +3,7 @@ import { useGlobalContext } from './context';
 
 export function Home(props){
 
-    const {modal,menu, openModal, openMenu}= useGlobalContext();
+    const { openModal, openMenu}= useGlobalContext();
     
     return (<div className='home'>
     <span onClick={openMenu}><FaBars className='menu-bar'/></span>
